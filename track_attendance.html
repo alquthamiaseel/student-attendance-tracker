@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Attendance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="p-4 bg-blue-600 text-white">
+        <h1 class="text-2xl">Track Attendance</h1>
+        <nav class="mt-2">
+            <a href="index.html" class="text-white mr-4">Home</a>
+            <a href="track_attendance.html" class="text-white">Track Attendance</a>
+        </nav>
+    </header>
+    <main class="p-4">
+        <h2 class="text-xl mb-4">Your Attendance Records</h2>
+        <p>Here you can view and manage your attendance records.</p>
+        <p>To track your attendance, please select a date range:</p>
+        <input type="date" class="border rounded p-1 mb-4" />
+        <input type="date" class="border rounded p-1 mb-4" />
+        <button class="bg-blue-600 text-white p-2 rounded">Check Attendance</button>
+
+        <div class="mt-4">
+            <h3 class="text-lg">Attendance Summary</h3>
+            <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                    <tr>
+                        <th class="border border-gray-300 p-2">Date</th>
+                        <th class="border border-gray-300 p-2">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-300 p-2">2023-10-01</td>
+                        <td class="border border-gray-300 p-2">Present</td>
+                    </tr>
+                    <tr>
+                        <td class="border border-gray-300 p-2">2023-10-02</td>
+                        <td class="border border-gray-300 p-2">Absent</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
